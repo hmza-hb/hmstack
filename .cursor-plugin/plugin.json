@@ -1,0 +1,14 @@
+{
+  "name": "hmstack",
+  "displayName": "hmstack",
+  "version": "0.1.0",
+  "description": "a harness that gives coding agents taste. playbooks, palates, and a critique loop that rejects default ai slop.",
+  "author": {
+    "name": "Hamza"
+  },
+  "homepage": "https://github.com/hmza-hb/hmstack",
+  "repository": "https://github.com/hmza-hb/hmstack",
+  "license": "MIT",
+  "keywords": ["taste", "design", "harness", "skills"],
+  "skills": "./skills/"
+}
