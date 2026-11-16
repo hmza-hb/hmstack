@@ -53,7 +53,7 @@ keyboard order follows visual order. a menu keeps focus until escape or a choice
 
 ## alignment
 
-- toolbar controls are 32px tall and share one center line. icons are 16px.
+- toolbar controls are 32px tall from 720px up, and 40px below that. they share one center line. icons are 16px.
 - a list row is at least 40px. labels in that row share a baseline.
 - numeric columns are right-aligned and tabular.
 - sit controls on the 8px grid. the 1px press translate is the only off-grid motion.

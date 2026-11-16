@@ -26,7 +26,7 @@ tokens are css custom properties. put them on `:root` and use the names. do not 
 }
 ```
 
-on viewports under 720px, `--title` is `2rem` and `--page` is `20px`. `--card` stays 32px on section containers and may drop to 24px on a compact card. both sit on the 8pt scale: 8, 16, 24, 32, 48, 64.
+on viewports under 720px, `--title` is `2rem` and `--page` is `16px`. `--card` stays 32px on section containers and may drop to 24px on a compact card. both sit on the 8pt scale: 8, 16, 24, 32, 48, 64.
 
 ## type
 
@@ -52,7 +52,7 @@ focus is 2px solid `--accent`, offset 2px.
 
 ## components
 
-- primary button: `--ink` fill, `--paper` text, padding `8px 16px`. secondary: transparent, 1px `--ink` border, same padding. one primary per view.
+- primary button: `--ink` fill, `--paper` text, padding `8px 16px`, and `min-height: 40px` under 720px so the hit area clears the touch floor. secondary: transparent, 1px `--ink` border, same padding and height. one primary per view.
 - a nav is one row. wordmark on the left edge, links on the right, 16px gap. no hamburger at 720px or above when the links fit.
 - a list is a list. markers are `--muted`. check icons replace bullets only when the line is a completed step.
 
