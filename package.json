@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "description": "a harness that gives coding agents taste.",
   "license": "MIT",
+  "author": "Hamza Hafeez",
+  "homepage": "https://github.com/hmza-hb/hmstack",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hmza-hb/hmstack.git"

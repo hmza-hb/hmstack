@@ -6,7 +6,7 @@ a plugin for claude code and cursor. playbooks, a palate, and a critique loop. t
 
 a cook is not a cook because the kitchen has knives. a cook is a cook because they have a palate. they know when a plate is crowded, when the seasoning is generic, and when to take it off the heat. hmstack is that palate for coding agents.
 
-made by hamza ([@hmza](https://github.com/hmza)). inspired by lauren tan's [pstack](https://github.com/cursor/plugins/tree/main/pstack).
+made by hamza hafeez ([@hmza-hb](https://github.com/hmza-hb)). [hmstack](https://github.com/hmza-hb/hmstack). inspired by lauren tan's [pstack](https://github.com/cursor/plugins/tree/main/pstack).
 
 ## install
 
