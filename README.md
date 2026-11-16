@@ -18,13 +18,21 @@ node /path/to/hmstack/bin/hmstack.js install --claude
 node /path/to/hmstack/bin/hmstack.js install --cursor
 ```
 
+`package.json` exposes the same binary as `hmstack`, so a published or `npm link`ed checkout is `npx hmstack init`, `npx hmstack install --claude`, and `npx hmstack install --cursor`.
+
 `init` writes `.hmstack/config.json` in the current directory. `install --claude` symlinks this repo to `.claude/skills/hmstack`, which claude code loads as a project plugin. `install --cursor` symlinks each skill into `.cursor/skills/`.
 
 add `--global` to install for your user instead of the current repo. cursor rejects a symlink under `~/.cursor/plugins/local` when the target sits outside that folder, so `install --cursor --global` copies the plugin there. reload the window after a global cursor install.
 
 palates: `editorial-minimal`, `tactile-craft`, `lean-backend`.
 
-then run `/hm-mode`.
+in cursor the entry is `/hm-mode`. claude prefixes skills that ship inside a plugin, so the same entry is `/hmstack:hm-mode`. the phase commands follow the same rule: `/hm-mise` in cursor, `/hmstack:hm-mise` in claude.
+
+to load the repo itself for one claude session, without installing it into a project:
+
+```bash
+claude --plugin-dir /path/to/hmstack
+```
 
 ## the loop
 

@@ -1,0 +1,26 @@
+{
+  "name": "hmstack",
+  "version": "0.1.0",
+  "description": "a harness that gives coding agents taste.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hmza-hb/hmstack.git"
+  },
+  "bin": {
+    "hmstack": "./bin/hmstack.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "bin",
+    "skills",
+    "palates",
+    "TASTE.md",
+    "README.md",
+    "LICENSE",
+    ".claude-plugin",
+    ".cursor-plugin"
+  ]
+}
